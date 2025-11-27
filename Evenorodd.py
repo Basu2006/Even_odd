@@ -11,8 +11,10 @@ odd_count = 0
 
 for n in numbers:
     if n % 2 == 0:
+        print(n, "is Even")
         even_count += 1
     else:
+        print(n, "is Odd")
         odd_count += 1
 
 print("Even Count:", even_count)
